@@ -13,17 +13,19 @@ MonoBehaviour:
   m_Name: TyraData
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
   CharacterName: Ray
-  maxHealth: 200
+  maxHealth: 300
   attacks:
   - attackName: 'Colmillo Rayo '
     minDamage: 50
-    maxDamage: 200
+    maxDamage: 75
     animationName: Attack-1
+    attackDuration: 3.5
     attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
-    attackHitOarticles: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
+    attackHitParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
   - attackName: Mordisco
     minDamage: 25
-    maxDamage: 150
+    maxDamage: 100
     animationName: Attack-2
-    attackParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
-    attackHitOarticles: {fileID: 4021103657954561961, guid: 5c755f9bc5253ea418e919994537dcc7, type: 3}
+    attackDuration: 3.5
+    attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
+    attackHitParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
