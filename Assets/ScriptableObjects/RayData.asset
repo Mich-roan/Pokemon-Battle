@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5aa481eadd01144f94d10ebf5a93f9d, type: 3}
   m_Name: RayData
   m_EditorClassIdentifier: Assembly-CSharp::CharacterData
-  CharacterName: Ray
-  maxHealth: 300
+  characterName: Rayquaza
+  maxHealth: 500
   attacks:
   - attackName: "Cola Drag\xF3n "
     minDamage: 50
@@ -23,9 +23,10 @@ MonoBehaviour:
     attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
     attackHitParticles: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
   - attackName: Vendaval
-    minDamage: 25
-    maxDamage: 75
+    minDamage: 75
+    maxDamage: 150
     animationName: Attack-2
     attackDuration: 3.5
     attackParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
     attackHitParticles: {fileID: 5112403345868107898, guid: 6f34ef0d986e9db4199cf75805f79753, type: 3}
+  winAnimationName: 

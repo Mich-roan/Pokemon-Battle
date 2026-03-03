@@ -3,9 +3,10 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "CharacterData", menuName = "Scriptable Objects/CharacterData")]
 public class CharacterData : ScriptableObject
 {
-    public string CharacterName;
+    public string characterName;
     public float maxHealth;
     public AttackData[] attacks;
+    public string winAnimationName;
 }
 
 [System.Serializable]
