@@ -28,6 +28,7 @@ public class BattleManager : MonoBehaviour
             fighter.Initialize();
             if (fighters.Count >= minimumFighters)
             {
+                StopBattle();
                 onStartBattleCount?.Invoke();
             }
         }

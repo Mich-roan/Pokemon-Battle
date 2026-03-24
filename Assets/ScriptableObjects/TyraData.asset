@@ -20,6 +20,7 @@ MonoBehaviour:
     maxDamage: 100
     animationName: Attack-1
     attackDuration: 3.5
+    attackSoundName: Tyra04
     attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
     attackHitParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
   - attackName: Mordisco
@@ -27,6 +28,7 @@ MonoBehaviour:
     maxDamage: 150
     animationName: Attack-2
     attackDuration: 3.5
+    attackSoundName: Tyra05
     attackParticles: {fileID: 1590415177872986601, guid: acdb90624a404aa438447006f1026065, type: 3}
     attackHitParticles: {fileID: 9027514048236820045, guid: effb650189dc5714e9e9801b1cfb3991, type: 3}
   winAnimationName: 

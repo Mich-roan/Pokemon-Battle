@@ -32,11 +32,11 @@ public class DialogSystem : MonoBehaviour
    private IEnumerator ShowDialogCoroutine(string dialog)
     {
          dialogText.text = "";
-         SoundManager.instance.Play ("DialogLetter");
         animator.Play(showAnimationName, 0, 0f);
         yield return new WaitForSeconds(animator.GetCurrentAnimatorStateInfo(0).length);
         foreach (char letter in dialog.ToCharArray())
         {
+            SoundManager.instance.Play ("DialogLetter");
             dialogText.text += letter;
             yield return new WaitForSeconds(timeBetweenWords);
         }
